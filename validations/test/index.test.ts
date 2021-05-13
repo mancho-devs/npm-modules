@@ -1,7 +1,7 @@
 import { validateForPositiveNumber } from '..';
 
 describe('validateForPositiveNumber', () => {
-  it('should throw exception if prop is below zero', async () => {
+  it('should throw exception if value is below zero', async () => {
     const error = new Error('The parameter value must be greater than zero.');
 
     expect.assertions(1);
@@ -13,7 +13,7 @@ describe('validateForPositiveNumber', () => {
     }
   });
 
-  it('should throw exception if prop is not number', async () => {
+  it('should throw exception if value is not number', async () => {
     const error = new Error('The value must be a valid number.');
 
     expect.assertions(1);
