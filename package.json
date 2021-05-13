@@ -2,19 +2,6 @@
   "name": "npm-modules",
   "version": "1.0.0",
   "description": "NPM modules.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mambetakunova/npm-modules.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mambetakunova/npm-modules/issues"
-  },
-  "homepage": "https://github.com/mambetakunova/npm-modules#readme"
+  "author": "Mancho Devs <dev@mancho.dev>",
+  "license": "ISC"
 }
