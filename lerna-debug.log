@@ -1,0 +1,10 @@
+30 error Error: Command failed with exit code 1: git commit -m v1.0.0
+30 error On branch main
+30 error Your branch is ahead of 'origin/main' by 1 commit.
+30 error   (use "git push" to publish your local commits)
+30 error
+30 error nothing to commit, working tree clean
+30 error     at makeError (/Users/sagynove/Documents/SynologyDrive/Drive/repos/prorab/service/npm-modules/node_modules/@lerna/child-process/node_modules/execa/lib/error.js:59:11)
+30 error     at handlePromise (/Users/sagynove/Documents/SynologyDrive/Drive/repos/prorab/service/npm-modules/node_modules/@lerna/child-process/node_modules/execa/index.js:114:26)
+30 error     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+30 error     at async Promise.all (index 0)

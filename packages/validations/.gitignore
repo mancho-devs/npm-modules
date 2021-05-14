@@ -1,5 +1,0 @@
-*.js
-!jest.config.js
-*.d.ts
-coverage
-node_modules

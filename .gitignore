@@ -6,3 +6,7 @@ node_modules
 # Files
 .DS_Store
 *.map
+*.js
+!jest*.js
+!loadershim.js
+*.d.ts

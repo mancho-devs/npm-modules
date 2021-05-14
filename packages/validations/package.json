@@ -1,28 +1,30 @@
 {
   "name": "@mancho.devs/validations",
   "version": "1.0.0",
-  "description": "A component for field validation",
+  "description": "Value validations made easy.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "prepublish": "npm run build",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mancho-devs/npm-modules.git"
   },
-  "keywords": [],
+  "keywords": [
+    "validation"
+  ],
   "author": "Mancho Devs <dev@mancho.dev>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mancho-devs/npm-modules/issues"
   },
   "homepage": "https://github.com/mancho-devs/npm-modules#readme",
   "devDependencies": {
-    "@types/jest": "^26.0.23",
-    "@types/node": "^15.0.2",
-    "typescript": "^4.2.4"
+    "@types/jest": "26.0.23",
+    "@types/node": "15.0.3",
+    "typescript": "4.2.4"
   }
 }
